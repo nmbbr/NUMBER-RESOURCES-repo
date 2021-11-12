@@ -3,6 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="index-style.min.css">
+
+    <script>
+    $(document).ready(function(){
+      //$("button").click(function(){
+        $("#div1").load("https://phillycheese007.github.io/templates/includes-testing/header-2.html");
+      //});
+    });
+    </script>
   </head>
   <body>
 
@@ -10,8 +19,8 @@
     <hr style="height:11px;border:none;color: green ;background-color:#333;" />
 
     <h2>Headers</h2>
+    <div id="div1" class="load-container"><h2>Let jQuery AJAX Change This Text</h2></div>
     <a href="/NUMBER-RESOURCES-repo/includes/headers/header_1/header_1.html">header-1</a>
-
     <hr>
 
     <h2>Test-loader-pages</h2>
